@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title> <!-- Update the title to a meaningful one -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    
+    <section class="main-content">
+        <div class="yellow-header"></div>
+        <div class="input-area">
+            <h1>To-Do List</h1>
+            <i id="sortIcon" class="fa-solid fa-arrow-down-short-wide"></i>
+            <div class="input-container">
+                <div class="input-group">
+                    <input type="text" placeholder="Add a task">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </div>
+                <button id="addTask">Add</button>
+            </div> 
+            <div id="taskContainer">
+                <ul id="taskList">
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
